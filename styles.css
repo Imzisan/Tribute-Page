@@ -1,8 +1,9 @@
 *{
     font-family: "Raleway", system-ui;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: medium;
+    font-weight: medium;
+    font-style: normal;
+    box-sizing:border-box;
 }
 .first-color { 
 	background:#f1f864; 
@@ -27,7 +28,9 @@ header>p{
     font-size: 1.3em
 }
 figure{
+    display:block;
     border-radius:2%;
+    padding:auto 30px
 }
 img,figcaption{
     max-width:100%;
@@ -45,7 +48,7 @@ align-items:center;
 }
 section{
     padding:inherit;
-    margin: 16px 40px;
+    margin: 16px 150px;
 }
 .header{
     width:80%
@@ -55,14 +58,17 @@ section{
     border-radius:2%;
     padding:50px
 }
-.aligner{
-    padding:auto 30px
+main{
+    padding:auto 30px;
 }
 ul{
     padding: 20px ;
 }
 li{
-    padding:10px
+    padding:10px;
+    border:2px solid black;
+    border-radius:10px;
+    margin:10px;
 }
 h1{
 
